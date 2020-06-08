@@ -1,0 +1,130 @@
+body{
+    background-color: antiquewhite;
+}
+.mainbody{
+    background-color: tomato;
+    width: 100%;
+    height: 100vh;
+
+}
+.center{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+.menu{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 20%;
+    height: 100vh;
+    background-color: antiquewhite;
+    border: #388E3C solid 1px;
+    float: left;
+}
+.body{
+    float: left;
+    width: 80%;
+    height: 100vh;
+    border: #388E3C solid 1px;
+    background-color: antiquewhite;
+}
+ul{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+li{
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+}
+.money{
+    width: 600px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+    word-spacing: 1.4px;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.radio{
+    width: 600px;
+    height: 30px;
+}
+.radio1{}
+.radio2{}
+.convert{
+    width: 600px;
+    height: 90px;
+    background-color: #F5F5F5;
+
+
+}
+.check1{
+    float: left;
+    width: 300px;
+    height: 90px;
+    background-color: #F5F5F5;
+
+
+
+}
+.check2{
+
+    float: left;
+    width: 300px;
+    height: 90px;
+    background-color: #F5F5F5;
+
+
+}
+
+.money1{
+    width: 200px;
+    height: 100px;
+    float: left;
+    opacity: 1;
+}
+.money2{
+    width: 200px;
+    height: 100px;
+    float: left;
+
+    opacity: 1;
+}
+.money3{
+    width: 200px;
+    height: 100px;
+    float: left;
+
+
+}
+.money1:hover{
+    background-color: antiquewhite;
+    transform: scale(1.2);
+}
+.money2:hover{
+    background-color: antiquewhite;
+    transform: scale(1.2);
+}
+.money3:hover{
+    background-color: antiquewhite;
+    transform: scale(1.2);
+}
+
+
+.amswer{
+    margin-top: 25px;
+    width: 600px;
+    height: 90px;
+    text-align: center;
+}

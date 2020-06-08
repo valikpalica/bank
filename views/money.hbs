@@ -1,0 +1,61 @@
+<div class="body">
+    <form action="/money" method="post">
+        <div class="money">
+            <div class="radio">
+                <div class="center">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="fromGrivna">
+                        <label class="form-check-label" for="inlineRadio1">From Grivna</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="InGrivna">
+                        <label class="form-check-label" for="inlineRadio2">In Grivna</label>
+                    </div>
+                </div>
+            </div>
+            <div class="radio">
+                <div class="center">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="buy">
+                        <label class="form-check-label" for="inlineRadio1">Buy</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="sale">
+                        <label class="form-check-label" for="inlineRadio2">Sale</label>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="convert">
+                    <div class="check1">
+                        <div class="col-md-6 mb-3" style="margin-left: auto;margin-right: auto">
+                            <label for="validationCustom04">Kind</label>
+                            <select class="custom-select" id="validationCustom04" required name="money">
+                                <option>Choose</option>
+                                <option  value="USD">USD</option>
+                                <option  value="EUR">EUR</option>
+                                <option  value="RUR">RUR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="check2">
+                        <div class="col-md-6 mb-3" style="margin-left: auto;margin-right: auto">
+                            <label for="validationTooltip01">sum</label>
+                            <input type="text" class="form-control" id="validationTooltip01" name ="sum" value="{{sum}}" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="convert" style="margin: auto;padding-top:10px">
+                    <button type="submit" class="btn btn-outline-success">Convert</button>
+                </div>
+                <div class="amswer">
+                    {{#if visible}}
+                        {{format}}
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
